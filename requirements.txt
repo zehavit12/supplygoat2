@@ -1,5 +1,5 @@
 pytest
-grpcio_tools==1.41.0
+grpcio_tools==1.40.0
 wrapt==1.13.2
 requests==2.26.0
 urllib3==1.26.7
