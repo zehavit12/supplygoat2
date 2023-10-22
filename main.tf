@@ -71,7 +71,6 @@ resource "aws_s3_bucket" "data_science" {
   force_destroy = true
 }
 
-
 resource "aws_s3_bucket" "logs" {
   bucket = "${local.resource_prefix.value}-logs"
   region = "us-west-2"
